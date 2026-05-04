@@ -29,7 +29,7 @@ type CheckState =
   | { kind: "idle" }
   | { kind: "loading"; msg: string }
   | { kind: "success"; msg: string; meta?: string }
-  | { kind: "error"; msg: string };
+  | { kind: "error"; msg: string; meta?: string };
 
 function AlunoPage() {
   const [matricula, setMatricula] = useState("");
