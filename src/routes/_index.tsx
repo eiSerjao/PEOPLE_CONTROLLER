@@ -172,7 +172,7 @@ function Index() {
                   Entrar como aluno
                 </Button>
                 <p className="text-xs text-muted-foreground">
-                  Demo local: matrícula 2025001 e senha institucional da coordenação.
+                  Demo local: matrícula 2025001.
                 </p>
               </TabsContent>
 

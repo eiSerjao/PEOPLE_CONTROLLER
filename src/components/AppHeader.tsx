@@ -10,22 +10,6 @@ export function AppHeader() {
           </div>
           <span className="font-semibold tracking-tight">PresençaEdu</span>
         </Link>
-        <nav className="flex items-center gap-1 text-sm">
-          <Link
-            to="/aluno"
-            className="px-3 py-1.5 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
-            activeProps={{ className: "px-3 py-1.5 rounded-md bg-accent text-foreground" }}
-          >
-            Aluno
-          </Link>
-          <Link
-            to="/coordenacao"
-            className="px-3 py-1.5 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
-            activeProps={{ className: "px-3 py-1.5 rounded-md bg-accent text-foreground" }}
-          >
-            Coordenação
-          </Link>
-        </nav>
       </div>
     </header>
   );
